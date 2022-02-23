@@ -16,6 +16,19 @@ public class HundirFlota {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sn = new Scanner(System.in);
+        
+        
+        System.out.println("Introduce el tamaño del tablero: ");
+        int tamanio = Integer.parseInt(sn.next());
+        
+        System.out.println("Introduce tu nombre: ");
+        String nombre = sn.next();
+        
+        
+
+        
+        Tablero t = new Tablero(nombre, tamanio)
     }
     
 }
